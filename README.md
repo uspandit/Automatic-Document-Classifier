@@ -7,7 +7,7 @@ The classifier is a fine-tuned, multimodal LayoutLMv3 ([paper](https://arxiv.org
 ### Usage
 1. Running the app.
 
-    You can fork or clone the repository to run the code locally, or build your own Docker image. However, the built image is also available on [Docker Hub](https://hub.docker.com/r/davidhajdu1992/documentclassifier-app), making it even easier to use by simply pulling down the image and running it with docker-compose-run-app.yml file.
+    You can fork or clone the repository to run the code locally, or build your own Docker image.
 
     **How to:**
 
