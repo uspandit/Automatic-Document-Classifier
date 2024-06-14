@@ -14,5 +14,5 @@ services:
       LOG_LEVEL: "info"
       # ------------ app configs -------------------
       APP_NAME: "Utkarsh's Document Classifier FastAPI"
-      MODEL_NAME: davidhajdu/fine-tuned-rvl-cdip
+      MODEL_NAME: pandit56625/fine-tuned-rvl-cdip
       TOKENIZER_NAME: microsoft/layoutlmv3-base

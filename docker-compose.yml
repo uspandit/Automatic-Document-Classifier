@@ -14,7 +14,7 @@ services:
       ACCESS_LOG: "/dev/null"
       APP_NAME: "Utkarsh's Document Classifier FastAPI"
       # ------------ document classifier -------------------
-      MODEL_NAME: davidhajdu/fine-tuned-rvl-cdip
+      MODEL_NAME: pandit56625/fine-tuned-rvl-cdip
       TOKENIZER_NAME: microsoft/layoutlmv3-base
 
     volumes:
