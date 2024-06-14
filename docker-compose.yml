@@ -5,14 +5,14 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports:
-      - 80:80
+      - 8080:80
     command: "/start-reload.sh"
     environment:
       VERSION: "latest"
       APP_MODULE: "app.main:app"
       LOG_LEVEL: "debug"
       ACCESS_LOG: "/dev/null"
-      APP_NAME: "ML Document Classifier FastAPI Demo"
+      APP_NAME: "Utkarsh's Document Classifier FastAPI"
       # ------------ document classifier -------------------
       MODEL_NAME: davidhajdu/fine-tuned-rvl-cdip
       TOKENIZER_NAME: microsoft/layoutlmv3-base

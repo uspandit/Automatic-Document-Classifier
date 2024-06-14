@@ -1,9 +1,9 @@
 services:
   app:
-    image: davidhajdu1992/documentclassifier-app:v0.1
+    image: Utkarsh/documentclassifier-app:v0.1
     restart: always
     ports:
-      - 80:80
+      - 8080:80
     environment:
       VERSION: "v0.1"
       #------------- fastapi configs ------------------
@@ -13,6 +13,6 @@ services:
       WORKERS_PER_CORE: 1
       LOG_LEVEL: "info"
       # ------------ app configs -------------------
-      APP_NAME: "ML Document Classifier FastAPI Demo"
+      APP_NAME: "Utkarsh's Document Classifier FastAPI"
       MODEL_NAME: davidhajdu/fine-tuned-rvl-cdip
       TOKENIZER_NAME: microsoft/layoutlmv3-base
